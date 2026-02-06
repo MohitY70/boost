@@ -69,6 +69,6 @@ class Junie extends Agent implements SupportsGuidelines, SupportsMcp, SupportsSk
 
     public function skillsPath(): string
     {
-        return config('boost.agents.junie.skills_path', '.junie/skills');
+        return config('boost.agents.junie.skills_path', '.ai/skills');
     }
 }

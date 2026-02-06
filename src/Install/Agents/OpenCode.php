@@ -82,6 +82,6 @@ class OpenCode extends Agent implements SupportsGuidelines, SupportsMcp, Support
 
     public function skillsPath(): string
     {
-        return config('boost.agents.opencode.skills_path', '.agents/skills');
+        return config('boost.agents.opencode.skills_path', '.ai/skills');
     }
 }
