@@ -62,6 +62,6 @@ class Cursor extends Agent implements SupportsGuidelines, SupportsMcp, SupportsS
 
     public function skillsPath(): string
     {
-        return config('boost.agents.cursor.skills_path', '.cursor/skills');
+        return config('boost.agents.cursor.skills_path', '.ai/skills');
     }
 }
